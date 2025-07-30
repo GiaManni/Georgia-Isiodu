@@ -4,35 +4,51 @@
   <title>Georgia Isiodu | Home</title>
   <style>
     body {
-  background-color: #f0f4f8;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-}
-
-.content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.text {
-  flex: 1;
-  padding-right: 20px;
-}
-
-.profile img {
-  width: 300px;
-  height: auto;
-  border-radius: 50%;
-  border: 4px solid #1e3a8a;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-      </style>
+      background-color: #f0f4f8;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+    nav {
+      background-color: #1e3a8a;
+      padding: 10px 20px;
+    }
+    nav a {
+      margin-right: 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    h1, h2, h3 {
+      color: #1e3a8a;
+    }
+    .container {
+      padding: 20px;
+      margin-left: 200px; /* Offset to give space for left image */
+    }
+    .top-left-image {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+    }
+    .bottom-right-image {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 200px;
+      height: auto;
+      opacity: 0.8;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
 
+  <!-- Navigation -->
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
@@ -40,16 +56,19 @@
     <a href="projects.html">Projects</a>
     <a href="contact.html">Contact</a>
   </nav>
-  
-  <div class="content">
-    <div class="text">
-      <h1>Hi, I'm Georgia!</h1>
-      <h2>Backend Developer, Cybersecurity Enthusiast</h2>
-      <p>I am passionate about the Bible, women’s issues, learning new things, traveling, watching movies, and reading poetry and books.</p>
-    </div>
-    <div class="profile">
-      <img src="gia.jpeg" alt="Georgia Isiodu" />
-    </div>
+
+  <!-- Top Left Image -->
+  <img src="your-image-1.jpg" alt="Georgia's Picture" class="top-left-image">
+
+  <!-- Bottom Right Image -->
+  <img src="your-image-2.jpg" alt="Background Image" class="bottom-right-image">
+
+  <!-- Main Content -->
+  <div class="container">
+    <h1>Hi, I'm Georgia!</h1>
+    <h2>Backend Developer & Cybersecurity Enthusiast</h2>
+    <p>I am passionate about studying the Bible, empowering women, exploring new knowledge, traveling, watching movies, reading poetry, and books.</p>
   </div>
+
 </body>
 </html>
