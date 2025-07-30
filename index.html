@@ -4,65 +4,52 @@
   <title>Georgia Isiodu | Home</title>
   <style>
     body {
-      background-color: #f0f4f8;
-      font-family: Arial, sans-serif;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-    nav {
-      background-color: #1e3a8a;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 15px;
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 16px;
-    }
-    h1, h2
-    {
-      color: #1e3a8a;
-      text-align: center;
-    }
-     .profile {
-      text-align: center;
-      margin-top: 20px;
-    }
-    .profile img {
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      border: 3px solid #1e3a8a;
-    }
-     .content {
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-    }
-    
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.profile img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #1e3a8a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
       </style>
 </head>
 <body>
-  
+
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
-    <a href="certificate.html">Certificate</a>
+    <a href="certifications.html">Certifications</a>
     <a href="projects.html">Projects</a>
     <a href="contact.html">Contact</a>
   </nav>
-  <div class="profile">
-    <img src="georgia.png" alt="Georgia Isiodu">
-    <h1>Hi, I'm Georgia!</h1>
-    <h2>Backend Developer | Cybersecurity Enthusiast</h2>
-  </div>
- 
-   <div class="content">
-    <p>Welcome to my personal website. I am passionate about technology, biblical topics, women empowerment, and creativity. I also love learning, travelling, movies, poetry and books.</p>
+  
+  <div class="content">
+    <div class="text">
+      <h1>Hi, I'm Georgia!</h1>
+      <h2>Backend Developer, Cybersecurity Enthusiast</h2>
+      <p>I am passionate about the Bible, women’s issues, learning new things, traveling, watching movies, and reading poetry and books.</p>
+    </div>
+    <div class="profile">
+      <img src="your-image.jpg" alt="Georgia Isiodu" />
+    </div>
   </div>
 </body>
 </html>
