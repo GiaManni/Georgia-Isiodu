@@ -177,12 +177,34 @@ body.projects-page {
 .about-image {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   mix-blend-mode: lighten; /* optional: blends the image with background */
+}
+.about navbar {
+   background: #fff;
+  margin: 0;
+  width: 80vw; /* stretches across the viewport */
+  border-radius: 0; /* no rounding, edge-to-edge */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 18px 50px;
+  display: flex;
+  justify-content: space-between; /* logo left, links right */
+  align-items: center;
+  position: sticky; /* stays at the top, optional */
+  top: 0;
+  left: 0;
+  z-index: 100;
+  gap: 0;
+}
 .contact-links {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-top: 30px;
 }
+  .about-image img {
+  max-width: 50%;
+  border-radius: 10px;
+  background color: transparent;
+    .about navbar {
 
 .contact-item { 
   display: flex;
