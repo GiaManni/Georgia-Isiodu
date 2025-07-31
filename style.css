@@ -246,10 +246,10 @@ nav a.active {
   max-width: 50%;
   border-radius: 10px;
 }
-.about h1 {
+.about h2 {
     color: white;
   }
-.contact h1 {
+.contact h2 {
   colour: white;
 }
 /* Contact section links */
