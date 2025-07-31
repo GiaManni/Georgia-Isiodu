@@ -34,7 +34,7 @@ body {
 body {
   margin: 0;
   font-family: inherit;
-  background-color: white;
+  background-color: transparent;
 }
 .screenshot-navbar {
   background: #fff;
@@ -246,10 +246,10 @@ nav a.active {
   max-width: 50%;
   border-radius: 10px;
 }
-.about h2 {
+.about {
     color: white;
   }
-.contact h2 {
+.contact  {
   colour: white;
 }
 /* Contact section links */
