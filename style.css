@@ -74,51 +74,80 @@ nav {
 }
 
 
-.about-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 80px 50px;
-  gap: 50px;
-}
-
-.about-left {
-  max-width: 50%;
-}
-
-.about-left h2 {
-  color: #00c264;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.about-left h3 {
-  font-size: 32px;
-  color: #111;
-  margin-bottom: 20px;
-}
-
-.about-left p {
-  font-size: 16px;
-  color: #444;
-  margin-bottom: 20px;
-  line-height: 1.6;
-}
-
-.personal-info {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 20px;
-}
-
-.personal-info li {
-  font-size: 15px;
-  margin-bottom: 8px;
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
   color: #333;
 }
 
-.about-right img {
-  width: 300px;
-  border-radius: 10px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1em 2em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.logo {
+  color: #00c853;
+  font-size: 24px;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a.active {
+  color: #00c853;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 3em;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00c853;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
