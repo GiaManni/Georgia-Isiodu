@@ -1,3 +1,11 @@
+/* Global font and size settings */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: white; /* Make all text white */
+  line-height: 1.6;
+}
+
 body {
   background-image: url('images/background.jpeg');
   background-size: cover;
