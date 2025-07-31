@@ -222,6 +222,13 @@ nav a.active {
   max-width: 100%;
   border-radius: 10px;
 }
+.about-h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
 
 
 /* Contact section links */
@@ -246,7 +253,14 @@ nav a.active {
   height: 30px;
   margin-right: 10px;
 }
-
+.contact h1 {
+   {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
 /* Ensure navbar stays top right like About page */
 .navbar {
   display: flex;
