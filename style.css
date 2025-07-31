@@ -15,7 +15,7 @@ body {
 .screenshot-navbar {
   background: #fff;
   margin: 0;
-  width: 100vw; /* stretches across the viewport */
+  width: 80vw; /* stretches across the viewport */
   border-radius: 0; /* no rounding, edge-to-edge */
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   padding: 18px 50px;
