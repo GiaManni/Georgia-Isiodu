@@ -135,6 +135,16 @@ body.projects-page {
   margin: 40px auto 0 auto;
 }
 
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 3em;
+}
+
 .about-text {
   flex: 1;
 }
@@ -167,14 +177,6 @@ body.projects-page {
 .about-image {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   mix-blend-mode: lighten; /* optional: blends the image with background */
-}
-
-.about-image img {
-  max-width: 50%;
-  border-radius: 10px;
-  background color: transparent;
-}
-
 .contact-links {
   display: flex;
   flex-direction: column;
