@@ -1,4 +1,28 @@
 
+<main class="hero">
+  <!-- Wrapper to hold both text and image side by side -->
+  <div class="hero-container">
+    
+    <!-- Left side: Introductory text -->
+    <div class="hero-text">
+      <h4>HI THERE,</h4>
+      <h1>I Am Georgia</h1>
+      <p>
+        I'm a tech enthusiast passionate about backend development, women’s empowerment,
+        and lifelong learning. I build websites, solve problems, and love exploring new tools and places!
+      </p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+    
+    <!-- Right side: Image and name -->
+    <div class="hero-image">
+      <img src="images/manima.jpeg" alt="Profile" class="bold-image">
+      <div class="bold-image-label">Georgia Isiodu</div>
+    </div>
+    
+  </div>
+</main>
+
 body {
   background-image: url('images/background.jpeg');
   background-size: cover;
