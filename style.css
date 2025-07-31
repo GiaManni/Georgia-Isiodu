@@ -17,7 +17,7 @@ body {
 body {
   margin: 0;
   font-family: inherit;
-  background-color: #e8edf5;
+  background-color: white;
 }
 
 nav {
@@ -31,7 +31,7 @@ nav {
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #00c264;
+  color: white;
 }
 
 .nav-links {
@@ -42,7 +42,7 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  color: #white;
+  color: white;
   font-weight: 500;
 }
 
@@ -58,19 +58,19 @@ nav {
 }
 
 .hero-text h4 {
-  color: #white;
+  color: white;
   font-size: 18px;
 }
 
 .hero-text h1 {
   font-size: 50px;
-  color: #white;
+  color: white;
   margin: 10px 0;
 }
 
 .hero-text p {
   font-size: 16px;
-  color: #white;
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -94,20 +94,20 @@ body {
   margin: 0;
   font-family: inherit;
   background-color: #f0f4f8;
-  color: #333;
+  color: white;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: white;
   padding: 1em 2em;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-  color: #00c853;
+  color: white;
   font-size: 24px;
   margin: 0;
 }
@@ -115,7 +115,7 @@ body {
 nav a {
   margin-left: 20px;
   text-decoration: none;
-  color: #333;
+  color: white;
   font-weight: bold;
 }
 
@@ -156,7 +156,7 @@ nav a.active {
 
 .about-text h2 {
   font-size: 36px;
-  color: #333;
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -183,6 +183,7 @@ nav a.active {
 .about-image img {
   max-width: 50%;
   border-radius: 10px;
+  background color: transparent;
 }
 /* =========================
    PORTFOLIO SECTION STYLES
@@ -325,7 +326,7 @@ nav a.active {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #333;
+  color: white;
   font-size: 18px;
   font-weight: 500;
 }
