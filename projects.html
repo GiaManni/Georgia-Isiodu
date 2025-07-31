@@ -2,35 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Georgia Isiodu | Projects</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css"> <!-- Make sure this links to your template's CSS -->
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-  <nav class="navbar">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="certifications.html">Certifications</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-  </nav>
 
-  <div class="container card">
-    <h1 style="color: #0074d9;">My Projects</h1>
-    <div class="project-list">
-      <div class="project-item">
-        <h2>Farmer's Disease Detection App (Prototype)</h2>
-        <p>
-          Built an AI-powered app concept to help farmers identify plant diseases through images and receive instant treatment advice.
-        </p>
+  <!-- ======= HEADER ======= -->
+  <header>
+    <div class="container">
+      <h1 class="logo">ROTON</h1>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="projects.html" class="active">PORTFOLIO</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= PORTFOLIO SECTION ======= -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title">MY <span>PROJECTS</span></h2>
+
+      <!-- Filter Buttons -->
+      <div class="filter-btns">
+        <button class="btn active" data-filter="all">ALL</button>
+        <button class="btn" data-filter="design">DESIGN</button>
+        <button class="btn" data-filter="development">DEVELOPMENT</button>
+        <button class="btn" data-filter="print">PRINT</button>
       </div>
-      <div class="project-item">
-        <h2>Portfolio Website</h2>
-        <p>
-          This very site, designed to showcase my skills, learning journey, and connect with other developers and professionals.
-        </p>
+
+      <!-- Portfolio Grid -->
+      <div class="portfolio-grid">
+        
+        <!-- ===== PROJECT 1 ===== -->
+        <div class="portfolio-item design">
+          <img src="images/project1.jpg" alt="Project 1">
+          <div class="portfolio-info">
+            <h3>Branding Design</h3>
+            <p>Logo & Identity</p>
+          </div>
+        </div>
+
+        <!-- ===== PROJECT 2 ===== -->
+        <div class="portfolio-item development">
+          <img src="images/project2.jpg" alt="Project 2">
+          <div class="portfolio-info">
+            <h3>Website Redesign</h3>
+            <p>UI/UX + WordPress</p>
+          </div>
+        </div>
+
+        <!-- ===== PROJECT 3 ===== -->
+        <div class="portfolio-item print">
+          <img src="images/project3.jpg" alt="Project 3">
+          <div class="portfolio-info">
+            <h3>Print Design</h3>
+            <p>Magazine & Flyers</p>
+          </div>
+        </div>
+
+        <!-- ===== ADD MORE PROJECTS HERE ===== -->
       </div>
     </div>
-  </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Your Name. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ======= SCRIPTS ======= -->
+  <script src="js/main.js"></script>
 </body>
 </html>
