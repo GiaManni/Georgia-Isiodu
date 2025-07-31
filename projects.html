@@ -2,83 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Projects - Portfolio</title>
-  <link rel="stylesheet" href="css/style.css"> <!-- Make sure this links to your template's CSS -->
-  <link rel="stylesheet" href="css/responsive.css">
+  <title>Projects | Georgia Isiodu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- ======= HEADER ======= -->
-   <header class="navbar">
+  <!-- Navbar -->
+  <header class="navbar">
     <h1 class="logo">GEORGIA Isiodu</h1>
     <nav>
       <a href="index.html">Home</a>
-      <a href="about.html" class="active">About</a>
+      <a href="about.html">About</a>
       <a href="services.html">Services</a>
-      <a href="portfolio.html">Portfolio</a>
+      <a href="projects.html" class="active">Projects</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-    </div>
-  </header>
 
-  <!-- ======= PORTFOLIO SECTION ======= -->
-  <section id="portfolio" class="section">
-    <div class="container">
-      <h2 class="section-title">MY <span>PROJECTS</span></h2>
+  <!-- Projects Section -->
+  <section class="projects-section">
+    <h2 class="section-title">MY <span class="highlight">PROJECTS</span></h2>
 
-      <!-- Filter Buttons -->
-      <div class="filter-btns">
-        <button class="btn active" data-filter="all">ALL</button>
-        <button class="btn" data-filter="design">DESIGN</button>
-        <button class="btn" data-filter="development">DEVELOPMENT</button>
-        <button class="btn" data-filter="print">PRINT</button>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/project1.png" alt="Project 1">
+        <h3>AI Crop Diagnosis App</h3>
+        <p>A mobile app that helps farmers detect crop diseases using image recognition and provides treatment advice.</p>
       </div>
 
-      <!-- Portfolio Grid -->
-      <div class="portfolio-grid">
-        
-        <!-- ===== PROJECT 1 ===== -->
-        <div class="portfolio-item design">
-          <img src="images/project1.jpg" alt="Project 1">
-          <div class="portfolio-info">
-            <h3>Branding Design</h3>
-            <p>Logo & Identity</p>
-          </div>
-        </div>
-
-        <!-- ===== PROJECT 2 ===== -->
-        <div class="portfolio-item development">
-          <img src="images/project2.jpg" alt="Project 2">
-          <div class="portfolio-info">
-            <h3>Website Redesign</h3>
-            <p>UI/UX + WordPress</p>
-          </div>
-        </div>
-
-        <!-- ===== PROJECT 3 ===== -->
-        <div class="portfolio-item print">
-          <img src="images/project3.jpg" alt="Project 3">
-          <div class="portfolio-info">
-            <h3>Print Design</h3>
-            <p>Magazine & Flyers</p>
-          </div>
-        </div>
-
-        <!-- ===== ADD MORE PROJECTS HERE ===== -->
+      <div class="project-card">
+        <img src="images/project2.png" alt="Project 2">
+        <h3>Cheese Factory Website</h3>
+        <p>A clean, responsive website for a dairy startup that showcases products and connects with buyers.</p>
       </div>
+
+      <div class="project-card">
+        <img src="images/project3.png" alt="Project 3">
+        <h3>Makeup Booking App</h3>
+        <p>An appointment booking system for makeup artists with user profiles, calendars, and ratings.</p>
+      </div>
+
+      <!-- Add more projects as needed -->
     </div>
   </section>
-
-  <!-- ======= FOOTER ======= -->
-  <footer>
-    <div class="container">
-      <p>© 2025 Your Name. All Rights Reserved.</p>
-    </div>
-  </footer>
-
-  <!-- ======= SCRIPTS ======= -->
-  <script src="js/main.js"></script>
 </body>
 </html>
