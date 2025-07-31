@@ -145,13 +145,56 @@ body.projects-page {
   gap: 3em;
 }
 
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1em 2em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: #00c853;
+  font-size: 24px;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a.active {
+  color: #00c853;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 3em;
+}
+
 .about-text {
   flex: 1;
 }
 
 .about-text h2 {
   font-size: 36px;
-  color: white;
+  color: #333;
   margin-bottom: 20px;
 }
 
@@ -174,31 +217,12 @@ body.projects-page {
   flex: 1;
   text-align: center;
 }
-.about-image {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  mix-blend-mode: lighten; /* optional: blends the image with background */
-}
-.about navbar {
-   background: #fff;
-  margin: 0;
-  width: 80vw; /* stretches across the viewport */
-  border-radius: 0; /* no rounding, edge-to-edge */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  padding: 18px 50px;
-  display: flex;
-  justify-content: space-between; /* logo left, links right */
-  align-items: center;
-  position: sticky; /* stays at the top, optional */
-  top: 0;
-  left: 0;
-  z-index: 100;
-  gap: 0;
-}
-  .about-image img {
-  max-width: 50%;
+
+.about-image img {
+  max-width: 100%;
   border-radius: 10px;
-  background color: transparent;
-    .about navbar {
+}
+
 
 /* Contact section links */
 .contact-links {
