@@ -245,3 +245,24 @@ nav a.active {
   }
 }
 
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contact-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
