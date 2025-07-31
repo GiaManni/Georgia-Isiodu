@@ -243,18 +243,15 @@ nav a.active {
 }
 
 .about-image img {
-  max-width: 100%;
+  max-width: 50%;
   border-radius: 10px;
 }
-.about-h1 {
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 18px;
-  letter-spacing: 1px;
+.about h1 {
+    color: white;
+  }
+.contact h1 {
+  colour: white;
 }
-
-
 /* Contact section links */
 .contact-links {
   display: flex;
@@ -276,14 +273,6 @@ nav a.active {
   width: 30px;
   height: 30px;
   margin-right: 10px;
-}
-.contact h1 {
-   {
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 18px;
-  letter-spacing: 1px;
 }
 /* Ensure navbar stays top right like About page */
 .navbar {
