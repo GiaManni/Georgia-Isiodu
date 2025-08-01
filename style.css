@@ -1,4 +1,3 @@
-
 .hero-container {
   display: flex;
   justify-content: space-between;
@@ -6,7 +5,7 @@
   min-height: 60vh;
   width: 100%;
   padding: 40px 5%;
-  background: url('your-background.jpg') center/cover no-repeat;
+  background: url('background.jpeg') center/cover no-repeat;
 }
 
 .hero-text {
@@ -48,8 +47,8 @@
 }
 
 .hero-image img {
-  width: 260px;
-  height: 260px;
+  width: 240px;
+  height: 240px;
   object-fit: cover;
   border-radius: 10px;
   background: #fff;
