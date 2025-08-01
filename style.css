@@ -37,7 +37,7 @@ display: flex;
 }
 
 .screenshot-navbar .nav-links a {
-  color: blue;
+  color: black;
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
@@ -66,7 +66,7 @@ body.projects-page {
 .section-header h1 {
   font-size: 36px;
   font-weight: 700;
-  color: #222;
+  color: white;
   letter-spacing: 2px;
 }
 
@@ -185,7 +185,7 @@ nav a.active {
 
 .about-text h2 {
   font-size: 36px;
-  color: #333;
+  color: white;
   margin-bottom: 20px;
 }
 
