@@ -1,4 +1,78 @@
-body {
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60vh;
+  width: 100%;
+  padding: 40px 5%;
+  background: url('your-background.jpg') center/cover no-repeat;
+}
+
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #fff;
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin: 0 0 15px 0;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  margin-bottom: 25px;
+}
+
+.hire-me-btn {
+  background: #1ec773;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 50%;
+}
+
+.hero-image img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 900px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 2%;
+  }
+  .hero-text, .hero-image {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-image {
+    margin-top: 25px;
+    justify-content: center;
+  }
+}body {
   background-image: url('images/background.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
