@@ -12,20 +12,12 @@ body {
   background-color: transparent;
 }
 .screenshot-navbar {
-  background: #fff;
-  margin: 0;
-  width: 80vw; /* stretches across the viewport */
-  border-radius: 0; /* no rounding, edge-to-edge */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  padding: 18px 50px;
-  display: flex;
-  justify-content: space-between; /* logo left, links right */
+display: flex;
+  justify-content: space-between;
   align-items: center;
-  position: sticky; /* stays at the top, optional */
-  top: 0;
-  left: 0;
-  z-index: 100;
-  gap: 0;
+  background-color: #ffffff;
+  padding: 1em 2em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .screenshot-navbar .logo {
   font-size: 24px;
