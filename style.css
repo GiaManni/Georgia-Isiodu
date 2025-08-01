@@ -6,6 +6,23 @@
   background-color: #f9f9f9;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+.logo {
+  color: #00c853;
+  font-size: 24px;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a.active {
+  color: #00c853;
+}
+
 .hero-container {
   display: flex;
   justify-content: space-between;
