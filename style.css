@@ -1,28 +1,40 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* This pushes logo left, nav right */
   align-items: center;
-  padding: 25px 60px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  width: 100%;
+  background: white;
+  padding: 0 40px;
+  height: 80px;
+  box-sizing: border-box;
 }
+
 .logo {
-  color: #00c853;
-  font-size: 24px;
-  margin: 0;
-}
-
-nav a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #333;
+  font-size: 1.5rem;
   font-weight: bold;
+  color: black; /* You can style this as you wish */
 }
 
-nav a.active {
-  color: #00c853;
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
+.nav-links li a {
+  text-decoration: none;
+  color: #0000ff; /* Blue links */
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.nav-links li a.active,
+.nav-links li a:hover {
+  color: #1ec773; /* Highlight color for active/hover */
+}
 .hero-container {
   display: flex;
   justify-content: space-between;
@@ -309,4 +321,42 @@ nav a.active {
   color: #333;
   text-decoration: none;
   font-weight: bold;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  padding: 0 40px;
+  height: 80px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #0000ff; /* Blue links */
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.nav-links li a.active,
+.nav-links li a:hover {
+  color: #1ec773; /* Highlight color for active/hover */
 }
